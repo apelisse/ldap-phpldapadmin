@@ -3,7 +3,7 @@ kind: Manifest
 metadata:
   name: ldap-phpldapadmin
 description: LDAP Deployment with phpldapadmin UI.
-packages:
+resources:
   - ldap/
   - phpldapadmin/
 patches:
