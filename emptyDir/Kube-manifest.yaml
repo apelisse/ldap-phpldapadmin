@@ -4,7 +4,7 @@ metadata:
   name: ldap-phpldapadmin
 description: LDAP Deployment with phpldapadmin UI.
 packages:
-  - ldap/
-  - phpldapadmin/
+  - ../ldap/emptyDir/
+  - ../phpldapadmin/
 patches:
   - patch.yaml
